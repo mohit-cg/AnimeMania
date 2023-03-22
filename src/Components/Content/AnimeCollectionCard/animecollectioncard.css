@@ -1,0 +1,19 @@
+@media screen and (min-width: 640px) {
+	.collection-card a:before {
+		content: "";
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+	}
+
+	.collection-card a {
+		transform: translate(-5%, -5%);
+		transition: transform 0.2s;
+	}
+
+	.collection-card a:hover {
+		transform: translate(0, 0);
+	}
+}

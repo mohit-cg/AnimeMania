@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: "Inter", sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	background-color: #121212 !important;
+	scroll-behavior: smooth;
+	border: 0 !important;
+}
+body {
+	color: #fffc !important;
+	height: calc(var(--vh, 1vh) * 100);
+}
+
+a {
+	text-decoration: none !important;
+}
+
+:root {
+	--code-color: #ff6c5c;
+	--code-bg-color: #aaaaaa;
+	--code-font-size: 14px;
+	--code-line-height: 1.4;
+	--scroll-bar-color: #ff6c5c;
+	--scroll-bar-bg-color: black;
+	--swiper-navigation-size: 18px !important;
+	--bs-link-color: #fffc !important;
+	--bs-link-hover-color: rgba(206, 110, 0, 0.7) !important;
+}
+
+pre {
+	color: var(--code-color);
+	font-size: var(--code-font-size);
+	line-height: var(--code-line-height);
+	background-color: var(--code-bg-color);
+}
+
+::-webkit-scrollbar-corner {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+* {
+	scrollbar-width: thin;
+	scrollbar-color: var(--scroll-bar-color) var(--scroll-bar-bg-color);
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+	width: 8px;
+	height: 0;
+}
+
+*::-webkit-scrollbar-track {
+	background: var(--scroll-bar-bg-color);
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: var(--scroll-bar-color);
+	border-radius: 20px;
+	border: 3px solid var(--scroll-bar-bg-color);
+}

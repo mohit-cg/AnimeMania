@@ -1,0 +1,31 @@
+.facebook-icon svg:hover,
+.discord-icon svg:hover,
+.github-icon svg:hover,
+.go-up-icon svg:hover {
+	transition: all 0.4s ease-in-out;
+	opacity: 1;
+	cursor: pointer;
+	background: #30165a;
+}
+
+.facebook-icon svg,
+.discord-icon svg,
+.github-icon svg,
+.go-up-icon svg {
+	border-radius: 10px;
+	padding: 4px;
+	text-decoration: none;
+}
+
+.facebook-icon svg {
+	color: #4267b2;
+}
+.discord-icon svg {
+	color: #7289da;
+}
+.github-icon svg {
+	color: whitesmoke;
+}
+.go-up-icon svg {
+	color: #ff7700;
+}
