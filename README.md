@@ -3,7 +3,7 @@
 </p>
 <b>UNIME</b> (previously named <b>MIRAI</b>) is an anime website that provides you with anime completely free without ads.
 
-The site: [UNIME](https://unime.vercel.app/)
+The site: [AnimeMania](https://unime.vercel.app/)
 
 ![Banner](https://i.imgur.com/pHrKSHE.png)
 
